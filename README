@@ -1,0 +1,15 @@
+This project contains a lot of object oriented patterns I remembered from
+my studies at UWO. This project contains over two thousand lines of code.
+It took me the majority of a summer to complete this project. 
+Mind you, I did not write specifications, I just thought it up as I went along,
+and we all know that can stretch a project out. 
+
+I originally wanted to experiment with distributed systems by making each 
+animal its own process, but since new animals are created in runtime, new 
+processes have to start and stop, and this caused too much overhead. So I 
+decided I would go with the usual approach of handling many objects, which is 
+to iterate through a list of objects within a single thread. But no worries,
+there's lots of beautiful inheritance, there's a singleton class, and there's
+a little multi-threading.
+
+I should have thrown some abstract classes/interfaces in there... oh well.
